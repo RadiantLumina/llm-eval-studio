@@ -156,7 +156,6 @@ llm-eval-studio/
 ## 📧 联系方式
 
 - 作者： RadiantLumina
-- Email：Rong-0202@outlook.com
 - GitHub：[@RadiantLumina](https://github.com/RadiantLumina)
 
 ---
