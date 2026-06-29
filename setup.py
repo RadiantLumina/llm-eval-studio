@@ -7,7 +7,6 @@ setup(
     name="llm-eval-studio",
     version="0.1.0",
     author="RadiantLumina",
-    author_email="Rong-0202@outlook.com",
     description="A professional LLM evaluation framework with multi-dimensional metrics",
     long_description=long_description,
     long_description_content_type="text/markdown",
