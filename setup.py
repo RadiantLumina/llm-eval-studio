@@ -1,0 +1,61 @@
+from setuptools import setup, find_packages
+
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
+setup(
+    name="llm-eval-studio",
+    version="0.1.0",
+    author="容龙 (RadiantLumina)",
+    author_email="Rong-0202@outlook.com",
+    description="A professional LLM evaluation framework with multi-dimensional metrics",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/RadiantLumina/llm-eval-studio",
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
+    classifiers=[
+        "Development Status :: 3 - Alpha",
+        "Intended Audience :: Developers",
+        "Intended Audience :: Science/Research",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+    ],
+    python_requires=">=3.8",
+    install_requires=[
+        "rouge-score>=0.1.0",
+        "sacrebleu>=2.0.0",
+        "bert-score>=0.3.0",
+        "transformers>=4.30.0",
+        "torch>=2.0.0",
+        "openai>=1.0.0",
+        "anthropic>=0.5.0",
+        "pandas>=2.0.0",
+        "numpy>=1.24.0",
+        "matplotlib>=3.7.0",
+        "seaborn>=0.12.0",
+        "plotly>=5.14.0",
+        "jieba>=0.42.1",
+        "scikit-learn>=1.3.0",
+        "tqdm>=4.65.0",
+        "pyyaml>=6.0",
+        "requests>=2.28.0",
+    ],
+    extras_require={
+        "dev": [
+            "pytest>=7.0.0",
+            "pytest-cov>=4.0.0",
+            "black>=23.0.0",
+            "flake8>=6.0.0",
+            "mypy>=1.0.0",
+        ],
+    },
+    include_package_data=True,
+    zip_safe=False,
+)
