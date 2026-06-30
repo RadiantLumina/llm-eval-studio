@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-一个大语言模型（LLM）评测框架，支持多维度指标评估、Prompt 模板管理和可视化分析。
+一个测试所用的大语言模型（LLM）评测框架，支持多维度指标评估、Prompt 模板管理和可视化分析。
 
 ## ✨ 特性
 
